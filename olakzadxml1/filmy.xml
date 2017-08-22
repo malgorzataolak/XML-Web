@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-stylesheet type="text/css" href="nowestyle.css"?>
+<!DOCTYPE kolekcja SYSTEM "plik.dtd">
+<kolekcja xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plik.xsd">
+	<film>
+		<nazwa>
+			<polska>Łowca androidów</polska>
+			<oryginalna>Blade Runner</oryginalna>
+		</nazwa>
+		<rezyser>Ridley Scott</rezyser>
+		<dlugosc>1h 57min</dlugosc>
+		<gatunek>Thriller</gatunek>
+		<gatunek>Sci-Fi</gatunek>
+		<produkcja>Honkong</produkcja>
+		<produkcja>USA</produkcja>
+		<produkcja>Wielka Brytania</produkcja>
+		<premiera>
+			<datapl>1 grudnia 1990</datapl>
+			<dataswiat>25 czerwca 1982</dataswiat>
+		</premiera>
+		<oceny>
+			<portal>
+				<nazwaportalu>Filmweb</nazwaportalu>
+				<ocena>7,7</ocena>
+			</portal>
+			<portal>
+				<nazwaportalu>IMDb</nazwaportalu>
+				<ocena>8,2</ocena>
+			</portal>			
+		</oceny>
+	</film>
+	<film>
+		<nazwa>
+			<polska>Gwiezdne Wojny: Przebudzenie Mocy</polska>
+			<oryginalna>Star Wars: The Force Awakens</oryginalna>
+		</nazwa>
+		<rezyser>Jeffrey Jacob Adams</rezyser>
+		<dlugosc>2h 15min</dlugosc>
+		<gatunek>Przygodowy</gatunek>
+		<gatunek>Sci-Fi</gatunek>
+		<produkcja>USA</produkcja>
+		<premiera>
+			<datapl>18 grudnia 2015</datapl>
+			<dataswiat>14 grudnia 2015</dataswiat>
+		</premiera>
+		<oceny>
+			<portal>
+				<nazwaportalu>Filmweb</nazwaportalu>
+				<ocena>7,8</ocena>
+			</portal>
+			<portal>
+				<nazwaportalu>IMDb</nazwaportalu>
+				<ocena>8,4</ocena>
+			</portal>
+		</oceny>
+	</film>
+	<film>
+		<nazwa>
+			<oryginalna>Casablanca</oryginalna>
+		</nazwa>
+		<rezyser>Michael Curtiz</rezyser>
+		<dlugosc>1h 42min</dlugosc>
+		<gatunek>Kryminał</gatunek>
+		<gatunek>Melodramat</gatunek>
+		<produkcja>USA</produkcja>
+		<premiera>
+			<datapl>25 września 2009</datapl>
+			<dataswiat>26 listopada 1942</dataswiat>
+		</premiera>
+		<oceny>
+			<portal>
+				<nazwaportalu>Filmweb</nazwaportalu>
+				<ocena>7,9</ocena>
+			</portal>
+			<portal>
+				<nazwaportalu>IMDb</nazwaportalu>
+				<ocena>8,6</ocena>
+			</portal>
+		</oceny>
+	</film>
+	<film>
+		<nazwa>
+			<polska>Dwunastu gniewnych ludzi</polska>
+			<oryginalna>12 Angry Men</oryginalna>
+		</nazwa>
+		<rezyser>Sidney Lumet</rezyser>
+		<dlugosc>1h 36min</dlugosc>
+		<gatunek>Dramat sądowy</gatunek>
+		<produkcja>USA</produkcja>
+		<premiera>
+			<datapl>listopad 1956</datapl>
+			<dataswiat>10 kwietnia 1957</dataswiat>
+		</premiera>
+		<oceny>
+			<portal>
+				<nazwaportalu>Filmweb</nazwaportalu>
+				<ocena>8,6</ocena>
+			</portal>
+			<portal>
+				<nazwaportalu>IMDb</nazwaportalu>
+				<ocena>8,9</ocena>
+			</portal>
+		</oceny>
+	</film>
+	<film>
+		<nazwa>
+			<polska>Zakochany bez pamięci</polska>
+			<oryginalna>Eternal sunshine of the spotless mind</oryginalna>
+		</nazwa>
+		<rezyser>Michael Gondry</rezyser>
+		<dlugosc>1h 48min</dlugosc>
+		<gatunek>Dramat</gatunek>
+		<gatunek>Sci-Fi</gatunek>
+		<produkcja>USA</produkcja>
+		<premiera>
+			<datapl>13 sierpnia 2004</datapl>
+			<dataswiat>19 marca 2004</dataswiat>
+		</premiera>
+		<oceny>
+			<portal>
+				<nazwaportalu>Filmweb</nazwaportalu>
+				<ocena>7,3</ocena>
+			</portal>
+			<portal>
+				<nazwaportalu>IMDb</nazwaportalu>
+				<ocena>8,4</ocena>
+			</portal>
+		</oceny>
+	</film>
+	<film>
+		<nazwa>
+			<polska>Król Lew</polska>
+			<oryginalna>The Lion King</oryginalna>
+		</nazwa>
+		<rezyser>Rob Minkoff</rezyser>
+		<rezyser>Roger Allers</rezyser>
+		<dlugosc>1h 29min</dlugosc>
+		<gatunek>Animacja</gatunek>
+		<gatunek>Familijny</gatunek>
+		<produkcja>
+		</produkcja>
+		<premiera>
+			<datapl>26 sierpnia 2011</datapl>
+			<dataswiat>15 czerwca 1994</dataswiat>
+		</premiera>
+		<oceny>
+			<portal>
+				<nazwaportalu>Filmweb</nazwaportalu>
+				<ocena>8,2</ocena>
+			</portal>
+			<portal>
+				<nazwaportalu>IMDb</nazwaportalu>
+				<ocena>8,5</ocena>
+			</portal>
+		</oceny>
+	</film>
+	
+</kolekcja>

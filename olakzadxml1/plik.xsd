@@ -1,0 +1,55 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="kolekcja">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="film" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nazwa">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="polska" minOccurs="0"/>
+                    <xs:element type="xs:string" name="oryginalna" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="rezyser" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="imie" minOccurs="0"/>
+                    <xs:element type="xs:string" name="nazwisko" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="dlugosc"/>
+              <xs:element type="xs:string" name="gatunek" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element type="xs:string" name="produkcja" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element name="premiera">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="datapl"/>
+                    <xs:element type="xs:string" name="dataswiat"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="oceny">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="portal" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="nazwaportalu"/>
+                          <xs:element type="xs:string" name="ocena"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

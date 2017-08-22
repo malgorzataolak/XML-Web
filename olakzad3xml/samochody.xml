@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cennik>
+	<samochod>
+		<marka>Ford</marka>
+		<model>Fiesta</model>
+		<rocznik>2001</rocznik>
+		<numerkatalogowy>1</numerkatalogowy>
+		<cena>10500</cena>
+	</samochod>
+	<samochod>
+		<marka>Opel</marka>
+		<model>Astra</model>
+		<rocznik>2010</rocznik>
+		<numerkatalogowy>2</numerkatalogowy>
+		<cena>25000</cena>
+	</samochod>
+	<samochod>
+		<marka>Hyundai</marka>
+		<model>Matrix</model>
+		<rocznik>2004</rocznik>
+		<numerkatalogowy>3</numerkatalogowy>
+		<cena>5500</cena>
+	</samochod>
+	<samochod>
+		<marka>Skoda</marka>
+		<model>Superb</model>
+		<rocznik>2013</rocznik>
+		<numerkatalogowy>4</numerkatalogowy>
+		<cena>58500</cena>
+	</samochod>
+	<samochod>
+		<marka>Opel</marka>
+		<model>Insignia</model>
+		<rocznik>2012</rocznik>
+		<numerkatalogowy>5</numerkatalogowy>
+		<cena>74900</cena>
+	</samochod>
+	<samochod>
+		<marka>Honda</marka>
+		<model>Civic</model>
+		<rocznik>2007</rocznik>
+		<numerkatalogowy>6</numerkatalogowy>
+		<cena>27900</cena>
+	</samochod>
+</cennik>

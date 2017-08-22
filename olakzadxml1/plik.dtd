@@ -1,0 +1,16 @@
+<!ELEMENT kolekcja (film*) >
+<!ELEMENT film (nazwa+, rezyser+, dlugosc, gatunek+, produkcja+, premiera, oceny ) >
+<!ELEMENT nazwa (polska*, oryginalna) >
+<!ELEMENT premiera (datapl*, dataswiat) >
+<!ELEMENT oceny (portal+) >
+<!ELEMENT portal (nazwaportalu+, ocena) >
+<!ELEMENT polska (#PCDATA) >
+<!ELEMENT oryginalna (#PCDATA) >
+<!ELEMENT rezyser (#PCDATA) >
+<!ELEMENT dlugosc (#PCDATA) >
+<!ELEMENT gatunek (#PCDATA) >
+<!ELEMENT produkcja (#PCDATA) >
+<!ELEMENT datapl (#PCDATA) >
+<!ELEMENT dataswiat (#PCDATA) >
+<!ELEMENT nazwaportalu (#PCDATA) >
+<!ELEMENT ocena (#PCDATA) >

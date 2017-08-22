@@ -1,0 +1,62 @@
+
+*{
+	display:block;
+}
+kolekcja{
+	background:#226666;
+	
+}
+film{
+	display:block;
+	background:#AA3939;
+	margin:5px 3%;
+	border: 2px dotted #550000;
+}
+
+nazwa{
+	display:block;
+	background:#D46A6A;
+	padding:6px;
+}
+
+polska{
+	display:inline;
+	font-size:1.5em;
+}
+oryginalna{
+	display:inline;
+	font-style:italic;
+	color:#FFAAAA;
+}
+
+rezyser{
+	padding:3px;
+}
+
+imie, nazwisko{
+	display:inline;
+}
+dlugosc{
+	padding:3px;
+	margin-bottom:5px;
+}
+gatunek{
+	display:inline;
+	background:#003333;
+	padding:5px;
+	border: 1px solid #003333;
+	border-radius:25px;
+	color:white;
+	
+	
+}
+
+produkcja{
+	display:block;
+	margin-top:10px;
+	background:#D49A6A;
+}
+
+nazwaportalu, ocena{
+	display:inline;
+}

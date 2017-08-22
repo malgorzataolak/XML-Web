@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<baza>
+	<mieszkanie id="1">
+		<lokalizacja>Koniecpol</lokalizacja>
+		<powierzchnia>20 m2</powierzchnia>
+		<liczbapokoi>3</liczbapokoi>
+		<rokoddania>2002</rokoddania>
+		<cena>12000</cena>
+	</mieszkanie>
+	<mieszkanie id="2">
+		<lokalizacja>Gniezno</lokalizacja>
+		<powierzchnia>50 m2</powierzchnia>
+		<liczbapokoi>4</liczbapokoi>
+		<rokoddania>2005</rokoddania>
+		<cena>120000</cena>
+	</mieszkanie>
+	<mieszkanie id="3">
+		<lokalizacja>Koluszki</lokalizacja>
+		<powierzchnia>60 m2</powierzchnia>
+		<liczbapokoi>5</liczbapokoi>
+		<rokoddania>1995</rokoddania>
+		<cena>223000</cena>
+	</mieszkanie>
+	<mieszkanie id="4">
+		<lokalizacja>Malbork</lokalizacja>
+		<powierzchnia>45 m2</powierzchnia>
+		<liczbapokoi>3</liczbapokoi>
+		<rokoddania>2001</rokoddania>
+		<cena>13000</cena>
+	</mieszkanie>
+	<mieszkanie id="5">
+		<lokalizacja>Gliwice</lokalizacja>
+		<powierzchnia>100 m2</powierzchnia>
+		<liczbapokoi>5</liczbapokoi>
+		<rokoddania>2010</rokoddania>
+		<cena>550000</cena>
+	</mieszkanie>
+</baza>

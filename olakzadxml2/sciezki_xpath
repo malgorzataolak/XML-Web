@@ -1,0 +1,32 @@
+xmllint --shell mieszkania.xml
+
+1)
+xpath string(//mieszkanie[last()])
+lub
+xpath string(/baza/mieszkanie[last()])
+lub 
+xpath //mieszkanie[last()]
+lub 
+xpath string(/mieszkanie/lokalizacja[last()])
+etc 
+
+Odpowiedz: Gliwice  100 m2   5  2010  550000
+
+2)
+xpath string(//mieszkanie[last()-1]/cena)
+lub
+xpath string(/baza/mieszkanie[last()-1]/cena)
+
+Odpowiedz: 13000 
+
+
+3) 
+xpath string(//mieszkanie[@id='1'])
+Odpowiedz: Koniecpol 20 m2  3 2002 12000
+
+xpath string(//mieszkanie[@id='4'])
+
+Odpowiedz: Malbork 45 m2 3 2001 13000
+
+
+
